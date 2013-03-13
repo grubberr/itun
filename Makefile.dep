@@ -1,0 +1,3 @@
+icmp_proto.o: icmp_proto.c config.h
+itun.o: itun.c config.h
+tun_dev.o: tun_dev.c config.h

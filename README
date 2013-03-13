@@ -1,0 +1,25 @@
+
+Icmp Tunnel - ITun
+Sergey Chvalyuk <grubberr@gmail.com>
+2005
+
+What is it ?
+------------
+
+ITun is a simple icmp tunnel. It allows to create tunnel 
+using only ICMP packets. It may be useful to pass through
+firewall which block UDP/TCP connections and usually 
+do not block ICMP packets (ping works).
+
+Install
+_______
+
+Edit config.h file according to your needs and run "make"
+to compile itun.
+
+Download:
+--------
+
+https://github.com/grubberr/itun
+
+Copyright (c) 2005 Sergey Chvalyuk <grubberr@gmail.com>
